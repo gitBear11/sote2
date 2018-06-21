@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TaschenRechner</title>
+</head>
+<body>
+
+
+<form>
+    <label for="Input"> Eingabe
+        <input id="Input" name="input">
+    </label>
+
+
+    <br>
+    <br>
+
+
+    <button type="button" onclick=" add(); showResult()"> + </button>
+    <button type="button" onclick=" min(); showResult()"> * </button>
+    <button type="button" onclick=" minus(); showResult()"> - </button>
+    <button type="button" onclick=" devide(); showResult()"> / </button>
+    <br>
+
+    <br>
+    <button type="button" onclick="reset()"> Reset</button>
+    <input type="button" onclick="splitString()" value="=">
+    <br>
+    <br>
+
+    <label for="Output"> Ergebnis
+        <input id="Output" name="output">
+
+</form>
+
+<script src="Taschenrechner.js"></script>
+
+</body>
+</html>
+
